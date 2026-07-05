@@ -27,9 +27,9 @@ enzopt-ml/
 🛠️ Current Status
 [x] Phase 0: Repository Infrastructure & Telemetry Freeze
 
-[ ] Phase 1: Sequence Design & Zero-Shot Inference Engine [In Progress]
+[x] Phase 1: Sequence Design & Zero-Shot Inference Engine 
 
-[ ] Phase 2: High-Throughput Structural Generation
+[ ] Phase 2: High-Throughput Structural Generation [In Progress]
 
 [ ] Phase 3: Automated Molecular Dynamics Validation
 
