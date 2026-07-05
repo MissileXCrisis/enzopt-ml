@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Boxes
+.env
+.venv
+env/
+venv/
+ENV/
+.conda/
+conda-meta/
+
+# IDEs and System Artifacts
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Testing & Telemetry
+.pytest_cache/
+.coverage
+htmlcov/
+logs/*.log
+
+# Machine Learning & HuggingFace Caches
+.cache/
+.huggingface/
+*.pt
+*.pth
+*.ckpt
+
+# Molecular Dynamics & Structure Artifacts (Massive Binaries)
+data/raw/*
+data/processed/*
+data/results/*
+!data/README.md
+*.pdb
+*.cif
+*.chk
+*.nc
+*.dcd
+*.xtc
+*.trr
+*.edr
+*.log
