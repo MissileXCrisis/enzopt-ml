@@ -1,6 +1,6 @@
 # EnzOpt-ML: Active-Learning Pipeline for pLM-Driven Enzyme Thermostability Optimization
 
-An enterprise-grade, end-to-end computational biology platform leveraging Pre-trained Protein Language Models (pLMs) and automated Molecular Dynamics (MD) simulations to predict, engineer, and validate high-stability enzyme variants.
+An end-to-end computational biology platform leveraging Pre-trained Protein Language Models (pLMs) and automated Molecular Dynamics (MD) simulations to predict, engineer, and validate high-stability enzyme variants.
 
 ## 🧬 Platform Architecture (DBTL Cycle)
 
@@ -10,6 +10,10 @@ This platform implements an industrial **Design-Build-Test-Learn (DBTL)** engine
 2. **BUILD (Structural In Silico Generation):** Automated high-throughput 3D structure generation using `ESMFold`/`AlphaFold 3` orchestrators for top-tier candidate sequences.
 3. **TEST (Physics-Based MD Validation):** Automated physical validation layer using `OpenMM`. Executes equilibrium simulations under simulated thermal stress to calculate Root-Mean-Square Fluctuation (RMSF) and Solvent-Accessible Surface Area (SASA) of the catalytic triad.
 4. **LEARN (Data Layer & Analytics UI):** Aggregates relational sequence-to-structure-to-physics metrics inside an `SQLite` data warehouse, surfacing candidate prioritizations via an interactive `Streamlit` analytical dashboard.
+
+![Alternative text description](images/Header.png)
+![Alternative text description](images/Table.png)
+![Alternative text description](images/Data notice.png)
 
 ## 🚀 Repository Blueprint
 ```text
@@ -33,4 +37,10 @@ enzopt-ml/
 
 [x] Phase 3: Automated Molecular Dynamics Validation
 
-[ ] Phase 4: Relational Orchestration & Analytics UI  [In Progress]
+[x] Phase 4: Relational Orchestration & Analytics UI 
+
+# Create the environment from the distribution profile
+conda env create -f environment.yml
+
+# Activate the environment
+conda activate enzopt-env
