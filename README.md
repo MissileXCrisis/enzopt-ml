@@ -29,8 +29,8 @@ enzopt-ml/
 
 [x] Phase 1: Sequence Design & Zero-Shot Inference Engine 
 
-[ ] Phase 2: High-Throughput Structural Generation [In Progress]
+[x] Phase 2: High-Throughput Structural Generation 
 
-[ ] Phase 3: Automated Molecular Dynamics Validation
+[x] Phase 3: Automated Molecular Dynamics Validation
 
-[ ] Phase 4: Relational Orchestration & Analytics UI
+[ ] Phase 4: Relational Orchestration & Analytics UI  [In Progress]
