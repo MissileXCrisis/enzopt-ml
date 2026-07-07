@@ -4,15 +4,10 @@ pipeline:
   log_level: "INFO"
 
 phase1_design:
-  # ESM-2 150M parameter model (Highly accurate, extremely light on CPU/RAM)
   model_name: "facebook/esm2_t30_150M_UR50D"
-  
-  # Target Enzyme: IsPETase (Wild-Type plastic-degrading enzyme sequence)
   target_name: "IsPETase_WT"
   wild_type_sequence: "MNFPRASRLMQAAVLGGLMAVSAAATAQTNPYARGPNPTAASLEASAGPFTVRSFTVSRPSGYGAGTVYYPTNAGGTVGAIAIVPGYTARQSSIKWWGPRLASHGFVVITIDTNSTLDQPSSRSSQQMAALRQVASLNGTSSSPIYGKVDTARMGVMGWSMGGGGSLISAANNPSLKAAAPQAPWDSSTNFSSVTVPTLIFACENDSIAPVNSSALPIYDSMSRNAKQFLEINGGSHSCANSGSTNQALIGKKGVAMTKQAILANGGSLSGAALNPPN"
-  
-  # Selection Constraints
-  top_n_variants: 20
+  top_n_variants: 3  # <-- Set this to 3 for quick end-to-end validation
   mutation_score_threshold: 0.0
 
 database:
