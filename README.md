@@ -13,7 +13,7 @@ This platform implements an industrial **Design-Build-Test-Learn (DBTL)** engine
 
 ![Alternative text description](images/Header.png)
 ![Alternative text description](images/Table.png)
-![Alternative text description](images/Data notice.png)
+![Alternative text description](images/Data_notice.png)
 
 ## 🚀 Repository Blueprint
 ```text
